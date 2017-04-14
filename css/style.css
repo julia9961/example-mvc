@@ -1,0 +1,212 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Fregat_regular;
+    color: #555555;
+    height: 100%;
+}
+
+@font-face {
+    font-family: Fregat_bold;
+    src: url(../fonts/fregat/Fregat_bold.otf);
+}
+
+@font-face {
+    font-family: Fregat_regular;
+    src: url(../fonts/fregat/Fregat_regular.otf);
+}
+
+.nav-background {
+    background: #f2f2f2;
+}
+
+nav {
+    display: block;
+    padding: 19px 0 16px 0;
+    font-family: Fregat_bold;
+    text-transform: uppercase;
+    color: #352bcc;
+    margin: 0 auto;
+    max-width: 940px;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li .buttonAdd {
+    border: 1px solid #555555;
+    border-radius: 25px;
+    background: none;
+    outline: none;
+    color: #555555;
+    padding: 6px 13px;
+    font-family: Fregat_bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.nav-background nav input {
+    outline: none;
+    border-radius: 20px;
+    padding: 7px 10px;
+    width: 196px;
+    font-family: Arial, FontAwesome;
+    color: #ababab;
+    float: right;
+    margin-top: -7px;
+}
+
+header {
+    display: block;
+    padding-top: 46px;
+    padding-bottom: 26px;
+    margin: 0 auto;
+    max-width: 940px;
+    width: 100%;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+header img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    padding-top: 8px;
+}
+
+header hgroup {
+    display: inline-block;
+}
+
+header hgroup h1 {
+    margin: 0;
+    font-family: Fregat_bold;
+    text-transform: uppercase;
+    font-size: 49px;
+    letter-spacing: -1px;
+}
+
+header hgroup h2 {
+    margin: 0;
+    font-size: 13px;
+}
+
+section {
+    margin: 42px auto;
+    max-width: 940px;
+    width: 100%;
+    min-height: 713px;
+}
+
+section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section ul li {
+    display: inline;
+    font-size: 13px;
+}
+
+section h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Fregat_bold;
+    margin-top: 8px;
+    margin-bottom: 67px;
+}
+
+section form table tr > td {
+    padding-bottom: 17px;
+    vertical-align: top;
+    font-size: 13px;
+    padding-right: 28px;
+    line-height: 29px;
+}
+
+section form table[name$="outputTable"] tr>td {
+    padding-left:20px;
+}
+
+section form table tr td button[value$="sort"] {
+    padding: 1px 3px;
+
+}
+section form table tr td button[value$="sort"]:hover {
+    color: indianred;
+}
+section form table tr td input, select, textarea {
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #afafaf;
+    border-radius: 5px;
+    padding: 7px;
+    outline: none;
+}
+
+section form table tr td input[name$="name"], textarea {
+    width: 149%; /*448px;*/
+}
+
+section form table tr td textarea {
+    height: 154px;
+}
+
+section form table tr td input[name$="code"] {
+    width: 96%; /*287px;*/
+}
+
+section form table tr td select {
+    width: 128%; /*301px;*/
+}
+
+section form table tr td input[type$="submit"] {
+    border: 1px solid #352bcc;
+    text-transform: uppercase;
+    font-family: Fregat_bold;
+    color: #352bcc;
+    background: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+    margin-top: 13px;
+    min-width: 220px;
+    height: 50px;
+}
+
+.footer-background {
+    background: #f2f2f2;
+    padding-bottom: 25px;
+}
+
+.footer-background footer {
+    display: block;
+}
+
+.footer-background footer small {
+    float: right;
+    padding-top: 3px;
+    color: #555555;
+    font-size: 12px;
+    font-family: Arial;
+    text-transform: none;
+}
+
+
